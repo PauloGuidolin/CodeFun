@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+    font-family: 'moresugar';
+    src: url(fuentes/more-sugar.regular.ttf);
+}
+
+.main {
+    /* position: relative; */
+
+    .fa-whatsapp {
+        color: white;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        border-radius: 60%;
+        background-color: green;
+        border-radius: 50;
+        font-size: 80px;
+
+    }
+}
+
+
+.container_header {
+    background: linear-gradient(to left, #fff975, #ffd7f7);
+    height: 90vh;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+    .logo-nav {
+        background: linear-gradient(to left, #fff975, #ffd7f7);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .logo {
+            cursor: pointer;
+
+            margin-top: 20px;
+
+            .code {
+                font-family: moresugar;
+                font-size: 2.8rem;
+                color: #1971c2;
+            }
+
+            .fun {
+                font-family: moresugar;
+                font-size: 2.8rem;
+                color: #fd6565;
+            }
+        }
+
+        nav {
+            margin-top: 20px;
+
+            li {
+                list-style: none;
+                display: inline-block;
+                padding: 10px;
+
+                a {
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: black;
+                }
+
+                .clase_informativa {
+                    background: linear-gradient(to right, rgb(228, 72, 25), rgb(56, 98, 212));
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .texto_info_principal_clase {
+
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            .hoy {
+                font-family: moresugar;
+                font-size: 4.5rem;
+                color: #1971c2;
+            }
+
+            .mañana {
+                font-family: moresugar;
+                font-size: 3.5rem;
+                color: #fd6565;
+
+            }
+
+            .creadores {
+                font-family: moresugar;
+                font-size: 4.8rem;
+                color: #1971c2;
+            }
+        }
+
+        .texto p {
+            /* color: white; */
+            text-align: left;
+            /* background-color: #fd6565; */
+            margin-top: 20px;
+            width: 500px;
+            font-size: 1.3rem;
+            color: black;
+            text-align: center;
+        }
+
+        .clase_informativa {
+            margin-top: 20px;
+            background-color: #1971c2;
+            padding: 10px 20px;
+            border-radius: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+
+        .clase_informativa a {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+}
+
+.container_nosotros {
+    background: linear-gradient(to left, #fff975, #ffd7f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nosotros {
+        margin: 50px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1971c2;
+
+        .texto-nosotros {
+            .title-nos {
+                .codeun {
+                    font-family: moresugar;
+                    font-size: 2.8rem;
+                    color: white;
+                    /* color: #1971c2; */
+                }
+
+                .crear {
+                    font-family: moresugar;
+                    font-size: 2.8rem;
+                    color: #fd6565;
+                }
+            }
+
+            .p-nos {
+                font-size: 1.3rem;
+                color: white;
+                /* text-align: center; */
+                /* margin: 20px; */
+                margin-top: 20px;
+                width: 500px;
+            }
+        }
+    }
+}
+
+.container_curso {
+    background: linear-gradient(to left, #fff975, #ffd7f7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .title-p-cursos {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .title-curso {
+            .aqui {
+                font-family: moresugar;
+                font-size: 2.8rem;
+            }
+
+            .forjan {
+                font-family: moresugar;
+                font-size: 2.8rem;
+                color: #fd6565;
+            }
+        }
+
+        .p-cursos {
+            font-size: 1.3rem;
+            color: black;
+            /* text-align: center; */
+            margin: 20px 20px;
+            padding: 20px;
+            /* width: 500px; */
+        }
+
+        .p-cursos p {
+            max-width: 600px;
+        }
+    }
+
+    .cursos {
+        margin-top: 20px;
+
+        .cards-cursos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .card {
+                /* background-color: #fd6565; */
+                /* width: auto; */
+                /* background-color: #1971c2; */
+                margin: 20px;
+                background-color: #fd6565;
+                border-radius: 20px;
+
+
+                .title-img-card {
+                    display: flex;
+
+                    /* justify-content: center; */
+                    align-items: center;
+                    padding: 20px;
+                    border-radius: 20px;
+
+                    h3 {
+                        font-size: 1.7rem;
+                        /* background-color: aqua; */
+                        color: white;
+                    }
+
+                    img {
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+@media (min-width:300px) and (max-width:768px) {
+    .main {
+        .fa-whatsapp {
+            right: 10px;
+            bottom: 10px;
+            font-size: 60px;
+        }
+    }
+
+    .container_header {
+        height: auto;
+
+        .logo-nav {
+            flex-direction: column;
+
+            .logo {
+                margin-top: 20px;
+            }
+
+            nav {
+                margin-top: 20px;
+                display: none;
+            }
+        }
+
+        .texto_info_principal_clase {
+            margin-top: 20%;
+
+            h1 {
+                text-align: center;
+
+                .hoy {
+                    font-size: 2.5rem;
+                }
+
+                .mañana {
+                    font-size: 2.5rem;
+                }
+
+                .creadores {
+                    font-size: 2.5rem;
+                }
+            }
+
+            .texto p {
+                width: 300px;
+                font-size: 1.3rem;
+                color: black;
+                text-align: center;
+            }
+
+            .clase_informativa {
+                margin-top: 20px;
+                background-color: #1971c2;
+                padding: 10px 20px;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .container_nosotros {
+        .nosotros {
+            width: auto;
+            flex-direction: column;
+            /* margin: 70px; */
+
+            .img-nosotros {
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+
+            .texto-nosotros {
+                .title-nos {
+                    text-align: center;
+
+                    .codeun {
+                        font-size: 1.8rem;
+                    }
+
+                    .crear {
+                        font-size: 1.8rem;
+                    }
+                }
+
+                .p-nos {
+                    padding: 20px;
+                    width: auto;
+                    font-size: 1.2rem;
+                    color: white;
+
+
+                }
+            }
+        }
+    }
+}

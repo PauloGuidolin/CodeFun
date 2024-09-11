@@ -118,19 +118,19 @@
             /* background-color: #fd6565; */
             margin-top: 20px;
             width: 500px;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             color: black;
-            text-align: center;
+            text-align: left;
         }
 
         .clase_informativa {
-            margin-top: 20px;
+            margin-top: 40px;
             background-color: #1971c2;
             padding: 10px 20px;
             border-radius: 20px;
             color: white;
             text-decoration: none;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
         }
 
         .clase_informativa a {
@@ -321,6 +321,7 @@
                 background-color: #1971c2;
                 padding: 10px 20px;
                 border-radius: 20px;
+                font-size: 1.4rem;
             }
         }
     }
@@ -358,6 +359,32 @@
                     color: white;
 
 
+                }
+            }
+        }
+    }
+    .container_curso {
+        .title-p-cursos {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .title-curso {
+                .aqui {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+        .cursos {
+            .cards-cursos {
+                flex-direction: column;
+                .card {
+                    .title-img-card {
+                        flex-direction: column;
+                        h3 {
+                            font-size: 1.5rem;
+                        }
+                    }
                 }
             }
         }
